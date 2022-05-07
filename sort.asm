@@ -2,7 +2,7 @@
 .globl __start
 
 __start:
-# prints array {6, 7, 2, 8, 5, 9]
+# prints array {6, 7, 2, 8, 5, 9}
  la $a0, antes
  li $v0, 4
  syscall
